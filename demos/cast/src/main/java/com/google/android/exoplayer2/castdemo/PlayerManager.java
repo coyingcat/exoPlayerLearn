@@ -242,6 +242,7 @@ import java.util.ArrayList;
   public void onTracksChanged(
       @NonNull TrackGroupArray trackGroups, @NonNull TrackSelectionArray trackSelections) {
     if (currentPlayer == exoPlayer && trackGroups != lastSeenTrackGroupArray) {
+      System.out.println(" ha  ha ha ");
       MappingTrackSelector.MappedTrackInfo mappedTrackInfo =
           trackSelector.getCurrentMappedTrackInfo();
       if (mappedTrackInfo != null) {

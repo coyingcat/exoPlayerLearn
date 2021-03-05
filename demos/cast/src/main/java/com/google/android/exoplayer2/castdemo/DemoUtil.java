@@ -89,6 +89,4 @@ import java.util.List;
 
     SAMPLES = Collections.unmodifiableList(samples);
   }
-
-  private DemoUtil() {}
 }
